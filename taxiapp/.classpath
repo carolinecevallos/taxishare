@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Caroline/adt-bundle-windows-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Caroline/workspace/java-master/Pubnub-Android-3.6.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Caroline/workspace/java-master/bcprov-jdk15on-1.47.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

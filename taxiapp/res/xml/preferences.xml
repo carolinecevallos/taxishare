@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefSocial"
+            android:summary="Turn Social Interaction On or Off"
+            android:title="Social Preference" >    
+        </CheckBoxPreference>
+        
+        <ListPreference
+            android:key="prefNumRiders"
+            android:title="Preferred Number of Passengers"
+            android:summary="Max number of passengers allowed"
+            android:entries="@array/numRiders"
+            android:entryValues="@array/numRidersValues"
+            android:defaultValue="1"
+        />
+    </PreferenceCategory>
+
+</PreferenceScreen>

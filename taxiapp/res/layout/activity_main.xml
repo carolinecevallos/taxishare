@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/chooseDestinationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chooseTimeListView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/ChooseDestinationText"
+        android:textSize="40sp" />
+    
+    <EditText
+        android:id="@+id/destinationEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/chooseDestinationTextView"
+        android:hint="@string/DestinationEditText" />
+    
+    <ListView
+        android:id="@+id/chooseTimeListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/chooseTimeEntries"
+        android:layout_below="@id/destinationEditText"
+        android:layout_marginTop="20dp" />
+    
+    <!-- We'll use a dialog for datepicker if user doesn't want it now
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chooseTimeTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:calendarViewShown="false"
+        android:spinnersShown="false" />
+    
+    <Button
+        android:id="@+id/goButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Go" />
+        
+    -->
+
+</RelativeLayout>

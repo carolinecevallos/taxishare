@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.taxishare.ChatActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/action_add_person"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_new"
+        android:title="@string/action_add_person" />
+    
+    <item
+        android:id="@+id/action_call_cab"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_call"
+        android:title="@string/action_call_cab" />
+
+</menu>

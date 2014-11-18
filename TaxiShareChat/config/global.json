@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "Taxishare": {
+            "applicationId": "TeDBGIO6uaWa7LUBUpB9i3CczYunE6jpOMk4KIR8", 
+            "masterKey": "aY0hdmA0tfxcgDjXaO72zd4j7jNTL3ivRgZuGVlk"
+        }, 
+        "_default": {
+            "link": "Taxishare"
+        }
+    }
+}
